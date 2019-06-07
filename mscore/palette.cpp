@@ -1092,7 +1092,7 @@ void Palette::paintEvent(QPaintEvent* /*event*/)
                   f.setPointSize(12);
                   p.setFont(f);
                   if (tag == "ShowMore")
-                        p.drawText(idxRect(idx), Qt::AlignCenter, "???");
+                        p.drawText(idxRect(idx), Qt::AlignCenter, "...");
                   else
                         p.drawText(rShift, Qt::AlignLeft | Qt::AlignTop, tag);
                   }
